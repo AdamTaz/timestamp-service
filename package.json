@@ -1,0 +1,25 @@
+{
+  "name": "timestamp-service",
+  "version": "0.0.1",
+  "description": "timestamp service that return unix and natural language data time from datetime in either format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamTarrant/timestamp-service.git"
+  },
+  "keywords": [
+    "timestamp"
+  ],
+  "author": "Adam Taz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamTarrant/timestamp-service/issues"
+  },
+  "homepage": "https://github.com/AdamTarrant/timestamp-service#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
