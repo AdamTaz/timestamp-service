@@ -1,6 +1,6 @@
 {
   "name": "timestamp-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "timestamp service that return unix and natural language data time from datetime in either format",
   "main": "index.js",
   "scripts": {

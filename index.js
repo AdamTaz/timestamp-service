@@ -2,6 +2,7 @@ var express = require('express');
 var path = require('path');
 
 var app = express();
+console.log(__dirname);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -16,4 +17,12 @@ app.get('/getdate/:date', (req,res) => {
     res.end(JSON.stringify(dateJSON));
 
 });
+
+app.all('*', function (req, res) {
+    res.writeHead(404, {"Content-Type":"text/plain"});
+    res.end("Oops! That page doesn't exist here"); 
+ });
+
+
+
 app.listen(8080);
