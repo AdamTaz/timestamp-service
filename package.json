@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/AdamTarrant/timestamp-service#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "body-parser": "4.2.0"
   },
   "engines": {
     "node": "4.2.0"
