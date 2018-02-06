@@ -1,5 +1,6 @@
 var express = require('express');
 var path = require('path');
+var port = process.env.PORT || 8080;
 
 var app = express();
 console.log(__dirname);
@@ -25,4 +26,4 @@ app.all('*', function (req, res) {
 
 
 
-app.listen(8080);
+app.listen(port);
